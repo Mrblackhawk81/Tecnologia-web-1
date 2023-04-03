@@ -1,5 +1,5 @@
 *{
-    margin-top: 50px;
+    margin-top: 50px; 
 }
 .padre{
     background-color: blue;
@@ -8,9 +8,9 @@
 }
 
 .box{
-    display: inline-block;
+    /* display: inline-block; */
     background-color: green;
-    width: 100px;
+    width: 500px;
     height: 100px;
 }
 

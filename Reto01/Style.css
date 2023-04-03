@@ -9,6 +9,38 @@ html{
 }
 
 .container{
-    
-
+    background-color: aquamarine;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 1.2;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;   
 }
+
+.contenido {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contenido__menu {
+    background-color: aqua;
+    width: 20%;
+    float: left;
+    height: 80rem;
+    text-align: center;
+    
+  }
+  
+  .contenido__hola {
+    background-color: brown;
+    width: 80%;
+    float: right;
+    height: 80rem;
+    text-align: center;
+    
+  }
+  
+
+
