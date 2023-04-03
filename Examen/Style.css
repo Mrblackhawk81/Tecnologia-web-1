@@ -1,0 +1,72 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+html{
+    font-size: 62.5;
+}
+
+.container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__menu{
+    background-image: url(avion.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.container__menu--articulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    
+   /*  background-size: 10px;
+    background-position: left; */
+    
+}
+#logo{
+   background-image: url(locked.png);
+   width: 100px;
+   height: 100px;
+    
+    
+}
+
+.container__titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 5px;
+    
+
+}
+li{
+    margin: 5px;
+
+}
+.container__principal{
+    background-color: brown;
+    height: 33vh;
+}
+
+.container__footer{
+    background-color: coral;
+    height: 33vh;
+}

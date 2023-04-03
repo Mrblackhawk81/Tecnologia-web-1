@@ -1,0 +1,17 @@
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.container__box1{
+    text-align: left;
+}
+.container__box2{
+    text-align: right;
+}
